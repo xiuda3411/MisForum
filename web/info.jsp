@@ -12,8 +12,8 @@
     <title>Mis论坛</title>
 </head>
 <body>
-    <div style="height: 500px;">
-        <h2>${outputMessage}</h2>
+    <div style="margin-top: 100px;">
+        <h2 align="center">${outputMessage}</h2>
     </div>
 
 
