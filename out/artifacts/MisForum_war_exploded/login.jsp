@@ -16,7 +16,7 @@
     <div style="align-content: center;margin-top: 150px;">
         <form action="LoginServlet" method="post" name="form2" >
             <center><h3>用户登录</h3>
-                账号：<input type="text" name="userName" align="center"><br>
+                账号：<input type="text" name="userName" id="user-name-label" align="center"><br>
                 密码：<input type="password" name="password" align="center"><br>
                 <input type="submit" value="登录" align="center">
                 <a href="register.jsp" align="center">立即注册</a>

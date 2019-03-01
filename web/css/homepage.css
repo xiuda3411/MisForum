@@ -1,0 +1,58 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#header{
+    position: relative;
+    height: 30px;
+    top: 0px;
+    left: 0px;
+    border: 1px solid #EBEBEB;
+}
+
+.top-A{
+    position: relative;
+    text-decoration-color: white;
+    margin-left: 450px;
+    float: left;
+    top: 15%;
+}
+
+.top-B{
+    position: relative;
+    text-decoration-color: white;
+    margin-right: 450px;
+    float: right;
+    top: 15%;
+}
+
+.forum-left-nav{
+    position: relative;
+    margin-left: 450px;
+    float: left;
+    text-decoration-color: #69c;
+    height: 700px;
+}
+
+.forum-left-nav li{
+    margin-top: 100%;
+}
+
+#question{
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    margin-top: 50px;
+    height: 300px;
+    width: 400px;
+}
+
+#question-bottom{
+    position: relative;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 270px;
+    border: 1px solid #EBEBEB;
+}

@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.sql.Connection;
 import java.sql.SQLException;
 
-@WebServlet("/RegisterServlet")
+@WebServlet("/register.jsp")
 public class RegisterServlet extends HttpServlet {
 
     @Override
@@ -41,7 +41,6 @@ public class RegisterServlet extends HttpServlet {
             }
             req.setAttribute("outputMessage",info);
             req.getRequestDispatcher("/info.jsp").forward(req,resp);
-
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         } catch (SQLException e) {
